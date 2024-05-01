@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //     next();
 // });
 function authorityStatus(req){
-if (req.body.password==="abhishekHerimeth")
+if (req.body.password==="abhishekPatrao")
 return true;
 else
 return false;
